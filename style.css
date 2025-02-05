@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  width: 100%;
+  background-color: #d5ff3f;
+}
+nav {
+  /* background-color: blue; */
+  padding: 60px 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+nav h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+nav a {
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section {
+  /* background-color: red; */
+  padding:60px 100px;
+}
+section .hero-Text1 {
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.hero-Text1 h1 {
+  font-size: 200px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-weight: 900;
+}
+.hero-Text1 .video{
+  height: 130px;
+  width: 400px;
+  background-color: black;
+  border-radius: 100px;
+  margin-top: 10px;
+  background-image: url(https://images.unsplash.com/photo-1731945087783-e3c4565f93fe?q=80&w=1956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  /* background-position: center; */
+  padding:12px;
+}
+.video .play{
+  height: 100%;
+  width: 100px;
+  border-radius: 100px;
+  background-color: rgb(20, 19, 19);
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play i{
+  color: white;
+  font-size: 50px;
+}
+section .hero-Text2 {
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+.hero-Text2 h1 {
+  font-size: 200px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-weight: 900;
+}
+.hero-Text2 p {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 600px;
+}
+.image{
+  height: 600px;
+  width: 90%;
+  margin-left: 5%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: red;
+  background-image: url(https://images.unsplash.com/photo-1735596717044-94c05d6c49dc?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
